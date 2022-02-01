@@ -1,0 +1,2 @@
+# UFOs
+In this project I will be building a table using data stored in a JavaScript array, creating filters to make this table fully dynamic, meaning that it will react to user input, and then placing the table into an HTML file for easy viewing.  I'll also customize the webpage using Bootstrap, and equip the table with several fully functional filters that will allow users to interact with our visualizations. 
