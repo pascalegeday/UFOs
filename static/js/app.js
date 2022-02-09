@@ -61,7 +61,10 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     //  Loop through an object
+    //   for (let i = 0; i < filters.length; i++)
+    console.log(filters)
     for (let i in filters) {
+      console.log(i)
       filteredData = filteredData.filter(row => row[i] === filters[i]);
     }
     //   // 9. Loop through all of the filters and keep any data that
@@ -74,12 +77,7 @@ function updateFilters() {
   }
  
   // 2. Attach an event to listen for changes to each filter
-  // d3.select("input").on("change", updateFilters); <-- not listening
-  d3.select("#datetime").on("change", updateFilters);
-  d3.select("#city").on("change", updateFilters);
-  d3.select("#state").on("change", updateFilters);
-  d3.select("#country").on("change", updateFilters);
-  d3.select("#shape").on("change", updateFilters);
+  d3.selectAll("input").on("change", updateFilters);
 
   
   // Build the table when the page loads
