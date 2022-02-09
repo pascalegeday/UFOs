@@ -59,8 +59,12 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     //  Loop through an object
-    for (let i in filters) {
-      filteredData = filteredData.filter(row => row[i] === filters[i]);
+    Object.entries(filters).forEach(entries => {
+      filteredData = filteredData.filter(row => row[entries[0]] == entries[1])
+
+      })
+    // for (let i in filters) {
+    //   filteredData = filteredData.filter(row => row[i] === filters[i]);
     }
 
     // 10. Finally, rebuild the table using the filtered data
