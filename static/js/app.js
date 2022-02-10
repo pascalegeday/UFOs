@@ -65,7 +65,7 @@ function updateFilters() {
       })
     // for (let i in filters) {
     //   filteredData = filteredData.filter(row => row[i] === filters[i]);
-    }
+   // }
 
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
