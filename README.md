@@ -3,6 +3,9 @@
 In this analysis we built a table using UFO Sighting data stored in a JavaScript array. By creating filters to make this table fully dynamic so that it reacts to user input, and then placing the table into an HTML file for easy viewing. Finally, customizing the webpage using Bootstrap, and equip the table with several fully functional filters that allow users to interact with the visualizations. 
 This way, users are able to filter through hundreds of UFO sightings for better data analysis. 
 
+To view this webpage please click on the link provided:
+[https://pascalegeday.github.io/UFOs/](https://pascalegeday.github.io/UFOs/)
+
 # Resources 
 * Data source: data.js
 * Programming languages & Framework: Javascript, HTML, CSS
